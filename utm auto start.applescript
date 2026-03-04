@@ -1,6 +1,6 @@
 on run
 	-- 可调参数
-	set vmName to "wrt-studio"
+	set vmName to "wrt-studio" -- 修改成自己虚拟机的名称
 	set bootDelaySeconds to 10 -- 登录后先等系统稳定，避免太早启动失败
 	set maxRetry to 5 -- 启动重试次数
 	set retryIntervalSeconds to 8 -- 每次重试间隔
